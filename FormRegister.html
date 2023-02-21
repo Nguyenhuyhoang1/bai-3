@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Form 1</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Student Registeration Form</h1>
+
+        <form action="">
+            
+            <label for="Frist_name">Fristname</label><br>
+            <input type="text" id="Frist_name" placeholder="Fristname" required> <br><br>
+
+            <label for="Middle_name">Middlename</label><br>
+            <input type="text" id="Middle_name" placeholder="Middlename" required> <br><br>
+
+            <label for="last_name">Lastname</label><br>
+            <input type="text" id="last_name" placeholder="Lastname" required> <br><br>
+
+            <div>
+                <label for="course">Course: </label>
+                <select name="Course" id="course">
+                    <option value="course">Course</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">javascript</option>
+                </select>
+            </div>  
+            <div class="Gender">
+                <p>Gender</p>         
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="gender" >
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="gender" >
+                <label for="Orther">Orther</label>
+                <input type="radio" id="Orther" name="gender" >
+    
+            </div>
+            <div><br>
+                <label for="phone">Phone: </label><br>
+                <input type="text" id="localtion" placeholder="+91"><br><br>
+
+                <input type="text" id="phone"><br>
+                
+            </div>
+
+            <div><br>
+                <label for="Curent_Addressone">Curent Address: </label><br>
+                <textarea name="CurentAddress" id="Curent_Addressone" cols="30" rows="10"></textarea>
+            </div>
+           
+            <div><br>           
+            <label for="email"><strong>Email</strong></label><br>
+            <input type="email" id="email" placeholder="Enter email" required> <br><br>
+
+            <label for="Password"><strong>Password</strong></label><br>
+            <input type="password" id="Password" placeholder=" Enter Password" required> <br><br>
+
+            <label for="Password"> <strong>Re-type Password</strong></label><br>
+            <input type="Password" id="Password" placeholder=" Retype Password" required> <br><br>
+            <button> Register</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>
